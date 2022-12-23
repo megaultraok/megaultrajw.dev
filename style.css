@@ -3,6 +3,10 @@ a {
     text-decoration: none;
 }
 
+a.icon8-link {
+    text-decoration: underline;
+}
+
 body {
     background-color: #000000;
     color: #FFFFFF;
@@ -31,8 +35,8 @@ table {
     padding: 1rem;
 }
 
-a.icon8-link {
-    text-decoration: underline;
+.projects {
+    margin-bottom: 3rem;
 }
 
 .sticky {
@@ -69,7 +73,7 @@ a.icon8-link {
 }
 
 #nav-content table {
-    table-layout: fixed;
+    table-layout: auto;
 }
 
 #nav-content td {
@@ -85,4 +89,23 @@ a.icon8-link {
 #social-media img {
     height: 35px;
     width: 35px;
+}
+
+/* Desktop screen */
+@media only screen and (min-width: 1025px) {
+    #main-content {
+        margin: 7vh 20vw;
+    }
+}
+
+/* Phone & tablet screens */
+@media only screen and (max-width: 768px) {
+    .gh-project-card {
+        height: 15rem;
+        width: 15rem;
+    }
+    
+    #main-content {
+        margin: 10vh 10vw;
+    }
 }
