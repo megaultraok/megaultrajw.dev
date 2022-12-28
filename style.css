@@ -109,6 +109,12 @@ table {
         height: 15rem;
         width: 15rem;
     }
+
+    #about-statement {
+        margin: 0 1rem;
+        margin-bottom: 3rem;
+        text-align: left;
+    }
     
     #main-content {
         margin: 10vh 5vw;
