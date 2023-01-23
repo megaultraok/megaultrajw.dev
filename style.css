@@ -1,4 +1,4 @@
-a {
+/* a {
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -97,6 +97,7 @@ table {
 }
 
 /* Desktop screen */
+/*
 @media only screen and (min-width: 1025px) {
     #main-content {
         margin: 7vh 20vw;
@@ -104,6 +105,7 @@ table {
 }
 
 /* Phone & tablet screens */
+/*
 @media only screen and (max-width: 768px) {
     .gh-project-card {
         height: 15rem;
@@ -119,4 +121,31 @@ table {
     #main-content {
         margin: 10vh 5vw;
     }
+} */
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    background-color: #000000 !important;
+    font-family: 'DM Mono', monospace !important;
+}
+
+h1 {
+    font-weight: bold !important;
+    text-decoration: underline;
+}
+
+.navbar-brand {
+    font-weight: bold !important;
+}
+
+.table {
+    margin: 0 auto !important;
+    width: 80% !important;
+}
+
+#name-heading {
+    text-decoration: none;
 }
