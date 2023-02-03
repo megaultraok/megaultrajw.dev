@@ -9,6 +9,9 @@ body {
 
 h1 {
     font-weight: bold !important;
+}
+
+h2 {
     text-decoration: underline;
 }
 
