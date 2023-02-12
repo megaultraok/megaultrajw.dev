@@ -3,7 +3,7 @@ a {
 }
 
 body {
-    background-color: #000000 !important;
+    background-color: #130f17 !important;
     font-family: 'DM Mono', monospace !important;
 }
 
@@ -19,9 +19,17 @@ h2 {
     font-weight: bold !important;
 }
 
+.navbar-offblack {
+    background-color: #130f17 !important;
+}
+
 .table {
     margin: 0 auto !important;
     width: 80% !important;
+}
+
+.text-offwhite {
+    color: #e9edf6 !important;
 }
 
 #name-heading {
