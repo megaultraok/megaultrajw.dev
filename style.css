@@ -15,6 +15,10 @@ h2 {
     text-decoration: underline;
 }
 
+.alt-link {
+    text-decoration: underline !important;
+}
+
 .navbar-brand {
     font-weight: bold !important;
 }
