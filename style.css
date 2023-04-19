@@ -19,6 +19,23 @@ h2 {
     text-decoration: underline !important;
 }
 
+.card {
+    color: #9da1a8 !important;
+    width: 100%;
+}
+
+.card .card-title {
+    font-weight: bold !important;
+}
+
+.card.text-bg-white {
+    background-color: #e9edf6 !important;
+}
+
+.card .text-body-secondary {
+    color: #666a70 !important;
+}
+
 .navbar-brand {
     font-weight: bold !important;
 }
