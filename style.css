@@ -21,6 +21,7 @@ h2 {
 
 .card {
     color: #9da1a8 !important;
+    max-width: 25rem;
 }
 
 .card .card-title {
